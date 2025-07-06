@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amul Protein Stock Tracker</title>
+  <style>
+    body { font-family: sans-serif; padding: 1rem; background: #f5f5f5; }
+    .product { background: white; padding: 1rem; margin-bottom: 1rem; border-radius: 10px; }
+    .in-stock { color: green; }
+    .out-stock { color: red; }
+  </style>
+</head>
+<body>
+  <h1>🧃 Amul Protein Product Stock</h1>
+  <div id="products"></div>
+
+  <script>
+    async function loadProducts() {
+      const res = await fetch("data.json");
+      const data = await res.json();
+      const container = document.getElementById("products");
+      container.innerHTML = "";
+
+      data.forEach(product => {
+        const div = document.createElement("div");
+        div.className = "product";
+        div.innerHTML = `
+          <h3>${product.name}</h3>
+          <p class="${product.in_stock ? 'in-stock' : 'out-stock'}">
+            ${product.in_stock ? "✅ In Stock" : "❌ Out of Stock"}
+          </p>
+          <a href="${product.link}" target="_blank">View on Amul →</a>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    loadProducts();
+    setInterval(loadProducts, 60000); // Auto-refresh every 60 sec
+  </script>
+</body>
+</html>
