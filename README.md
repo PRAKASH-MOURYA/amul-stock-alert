@@ -260,6 +260,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ by [Prakash Mourya]**
 
-[🤖 Try the Bot](https://t.me/AmulOSSBot) • [⭐ Star on GitHub](https://github.com/SwapnilSoni1999/amul-notify) • [📞 Contact](https://t.me/SoniSins)
-
 </div>
