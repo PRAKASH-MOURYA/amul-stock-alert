@@ -1,14 +1,12 @@
 # 🥛 Amul Stock Notification Bot
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-blue?logo=telegram)](https://t.me/AmulOSSBot)
-[![GitHub stars](https://img.shields.io/github/stars/SwapnilSoni1999/amul-notify?style=social)](https://github.com/SwapnilSoni1999/amul-notify)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 A powerful Telegram bot that helps you track the availability of Amul's protein-rich products including protein shakes, lassi, whey protein, paneer, and more. Get real-time notifications when your favorite products are back in stock in your local area!
 
 <div align="center">
 
-**[🤖 Try the Bot Now](https://t.me/AmulOSSBot)** • **[⭐ Star on GitHub](https://github.com/SwapnilSoni1999/amul-notify)** • **[📞 Contact Developer](https://t.me/SoniSins)**
 
 </div>
 
@@ -260,7 +258,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Made with ❤️ by [Swapnil Soni](https://github.com/SwapnilSoni1999)**
+**Made with ❤️ by [Prakash Mourya]**
 
 [🤖 Try the Bot](https://t.me/AmulOSSBot) • [⭐ Star on GitHub](https://github.com/SwapnilSoni1999/amul-notify) • [📞 Contact](https://t.me/SoniSins)
 
